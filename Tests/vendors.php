@@ -24,6 +24,16 @@ $deps = array(
 );
 
 $revs = array(
+    'v2.1' => array(
+        'symfony'               => 'v2.1.11',
+        'doctrine-common'       => '2.3.0',
+        'doctrine-dbal'         => '2.3.2',
+        'doctrine'              => '2.3.2',
+        'doctrine-fixtures'     => 'v1.0.0-ALPHA3',
+        'mongodb'               => '1.0.3',
+        'mongodb-odm'           => '1.0.0-BETA9',
+        'DoctrineMongoDBBundle' => 'v3.0.0-BETA4',
+    ),
     'v2.2' => array(
         'symfony'               => 'v2.2.2',
         'doctrine-common'       => '2.3.0',
